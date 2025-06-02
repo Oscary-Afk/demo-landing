@@ -8,8 +8,10 @@
 
 /* Navigation Menu */
 .nav {
-  background-color: #333;
-  color: white;
+  background-color: #21a9e1;
+  color: rgb(255, 255, 255);
+  border: 2px solid#21a9e1;
+  border-radius: 10px;
 }
 
 .nav__container {
@@ -30,10 +32,11 @@
   gap: 2rem;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 
 .nav__menu-item a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -212,20 +215,24 @@
 
 /* Footer */
 .footer {
-  background-color: #222;
+  background-color: #21a9e1;
   color: white;
   padding: 3rem 2rem;
   text-align: center;
   flex-shrink: 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  
 }
 
 .footer__container {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .footer__title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
@@ -235,7 +242,7 @@
 }
 
 .footer__link {
-  color: #ff6600;
+  color: #21a9e1;
   text-decoration: none;
 }
 
@@ -251,7 +258,7 @@
 }
 
 .footer__social-link {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -263,5 +270,5 @@
 
 .footer__copyright {
   font-size: 0.9rem;
-  color: #777;
+  color: #ffffff;
 }
